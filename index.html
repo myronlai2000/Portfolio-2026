@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Myron Lai — Product Design Portfolio 2026</title>
+<meta name="description" content="Product Design Engineering portfolio of Myron Lai.">
+<style>
+  :root{
+    --bg:#0a0a0b; --panel:#101013; --ink:#f5f5f7; --muted:#8a8a93;
+    --line:rgba(255,255,255,.10); --accent:#b32fa0; --accent2:#6a2bd6;
+    --max:1060px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;line-height:1.5}
+  a{color:inherit}
+  .bar{position:sticky;top:0;z-index:10;display:flex;align-items:center;
+    justify-content:space-between;gap:16px;padding:16px clamp(18px,5vw,40px);
+    background:rgba(10,10,11,.72);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line)}
+  .wordmark{font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+    font-size:clamp(15px,2.4vw,18px)}
+  .wordmark .dot{color:var(--accent)}
+  .bar .role{color:var(--muted);font-size:13px;letter-spacing:.04em;
+    display:none}
+  @media(min-width:620px){.bar .role{display:inline}}
+  .dl{font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    text-decoration:none;padding:9px 16px;border:1px solid var(--line);border-radius:999px;
+    white-space:nowrap;transition:.18s}
+  .dl:hover{border-color:var(--accent);color:#fff}
+  .hero{padding:clamp(46px,9vw,96px) clamp(18px,5vw,40px) clamp(20px,4vw,40px);
+    max-width:var(--max);margin:0 auto}
+  .hero h1{margin:0;font-weight:800;letter-spacing:-.02em;line-height:1.02;
+    font-size:clamp(40px,9vw,84px)}
+  .hero h1 .g{background:linear-gradient(100deg,var(--accent),var(--accent2));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero p{margin:18px 0 0;color:var(--muted);max-width:46ch;
+    font-size:clamp(15px,2.2vw,17px)}
+  .deck{max-width:var(--max);margin:0 auto;padding:clamp(10px,3vw,28px)
+    clamp(18px,5vw,40px) 40px;display:flex;flex-direction:column;
+    gap:clamp(18px,3vw,30px)}
+  .slide{margin:0}
+  .slide img{display:block;width:100%;height:auto;border:1px solid var(--line);
+    border-radius:8px;box-shadow:0 18px 50px rgba(0,0,0,.45)}
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  footer{border-top:1px solid var(--line);margin-top:20px;
+    padding:38px clamp(18px,5vw,40px) 56px}
+  .foot{max-width:var(--max);margin:0 auto;display:flex;flex-wrap:wrap;gap:14px 28px;
+    align-items:baseline;color:var(--muted);font-size:14px}
+  .foot .name{color:var(--ink);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  .foot a{text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:1px}
+  .foot a:hover{border-color:var(--accent);color:#fff}
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+  }
+</style>
+</head>
+<body>
+  <header class="bar">
+    <span class="wordmark">Myron Lai<span class="dot">.</span></span>
+    <span class="role">Product Design Engineering</span>
+    <a class="dl" href="Myron_Lai_Portfolio_2026.pdf" download>Download PDF</a>
+  </header>
+
+  <section class="hero">
+    <h1>Product design,<br><span class="g">designed and shipped.</span></h1>
+    <p>Selected work from my Product Design Engineering studies at Loughborough. Scroll through, or grab the PDF.</p>
+  </section>
+
+  <main class="deck">
+      <figure class="slide"><img src="slides/slide-01.jpg" alt="Portfolio page 1" loading="eager" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-02.jpg" alt="Portfolio page 2" loading="eager" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-03.jpg" alt="Portfolio page 3" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-04.jpg" alt="Portfolio page 4" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-05.jpg" alt="Portfolio page 5" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-06.jpg" alt="Portfolio page 6" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-07.jpg" alt="Portfolio page 7" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-08.jpg" alt="Portfolio page 8" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-09.jpg" alt="Portfolio page 9" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-10.jpg" alt="Portfolio page 10" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-11.jpg" alt="Portfolio page 11" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-12.jpg" alt="Portfolio page 12" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-13.jpg" alt="Portfolio page 13" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-14.jpg" alt="Portfolio page 14" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-15.jpg" alt="Portfolio page 15" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-16.jpg" alt="Portfolio page 16" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-17.jpg" alt="Portfolio page 17" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-18.jpg" alt="Portfolio page 18" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-19.jpg" alt="Portfolio page 19" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-20.jpg" alt="Portfolio page 20" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-21.jpg" alt="Portfolio page 21" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-22.jpg" alt="Portfolio page 22" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-23.jpg" alt="Portfolio page 23" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-24.jpg" alt="Portfolio page 24" loading="lazy" decoding="async"></figure>
+      <figure class="slide"><img src="slides/slide-25.jpg" alt="Portfolio page 25" loading="lazy" decoding="async"></figure>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <span class="name">Myron Lai</span>
+      <a href="mailto:myronlai2000@gmail.com">myronlai2000@gmail.com</a>
+      <a href="https://www.linkedin.com/in/yik-ki-lai-343533267/">LinkedIn</a>
+      <span>+44 7709 060191</span>
+    </div>
+  </footer>
+
+  <script>
+    const io=new IntersectionObserver((es)=>{
+      es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
+    },{rootMargin:'0px 0px -8% 0px'});
+    document.querySelectorAll('.slide').forEach((s,i)=>{
+      if(i>1){s.classList.add('reveal');io.observe(s);}
+    });
+  </script>
+</body>
+</html>
